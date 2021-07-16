@@ -97,6 +97,7 @@ def run_training():
             "altitude_high_meters_mean": altitude_high_meters_mean,
             "altitude_mean_log_mean": altitude_mean_log_mean,
             "fit_intercept": True,
+            "altitude_median": 5
         }
         mlflow.log_params(params)
         mlflow.set_tag("worst_model", "True")
@@ -111,7 +112,7 @@ def run_training():
         # saving the model
         logger.info("Saving model in the model folder")
         path = "models/linear"
-        save_model(sk_model=reg, path=path)
+        #save_model(sk_model=reg, path=path)
         # logging the model to mlflow will not work without a AWS Connection setup.. too complex for now
 
 
