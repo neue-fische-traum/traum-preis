@@ -1,9 +1,14 @@
-# ds-modeling-pipeline
+# Project to analyze and model Traum-Ferienwohnungen's data
 
-Skeleton project for building a simple model in python script
-This is the simplest way to do it. We train a simple model in the jupyter notebook, where we select only some features and do minimal cleaning. The output is then stored in simple python scripts.
+this repo has to notebooks and other materials we used to analyze and model Traum-Ferienwohnungen's data
 
-Data used is the [coffee quality dataset](https://github.com/jldbc/coffee-quality-database).
+Data used was provided by TFW, and is not to be disclosed
+
+EDA contains notebooks used for various aspects of the EDA
+notebooks contains notebooks used to develop models
+model and modeling were used to help set up MLFlow
+
+
 
 ##
 
