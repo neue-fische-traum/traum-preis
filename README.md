@@ -25,7 +25,7 @@ pip install --upgrade pip
 pip install -r requirements_dev.txt
 ```
 
-The requirements.txt file contains the libraries needed for deployment.
+The requirements.txt file contains the libraries needed for running the notebooks and MLFlow.
 
 ### Notes on MLFlow
 
