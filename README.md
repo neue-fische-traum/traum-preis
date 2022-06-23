@@ -6,19 +6,10 @@ Data used was provided by TFW, and is not to be disclosed
 
 EDA contains notebooks used for various aspects of the EDA
 notebooks contains notebooks used to develop models
-model and modeling were used to help set up MLFlow
 
 
 
-##
-
-Requirements:
-
-- pyenv with Python: 3.8.5
-
-### Setup
-
-Same procedure as last time...
+## Requirements and Setup
 
 Use the requirements file in this repo to create a new environment.
 
@@ -33,7 +24,9 @@ pip install --upgrade pip
 pip install -r requirements_dev.txt
 ```
 
-The requirements.txt file contains the libraries needed for deployment.. of model or dashboard .. thus no jupyter or other libs used during development.
+The requirements.txt file contains the libraries needed for deployment.
+
+### Notes on MLFlow
 
 The MLFLOW URI should not be stored on git, you have two options, to save it locally in the .mlflow_uri file:
 
@@ -51,9 +44,7 @@ This links to your local mlflow, if you want to use a different one, then change
 
 The code in the [config.py](modeling/config.py) will try to read it locally and if the file doesn't exist will look in the env var.. IF that is not set the URI will be empty in your code.
 
-## Usage
-
-### Creating an MLFlow experiment
+#### Creating an MLFlow experiment
 
 You can do it via the GUI or via [command line](https://www.mlflow.org/docs/latest/tracking.html#managing-experiments-and-runs-with-the-tracking-service-api) if you use the local mlflow:
 
