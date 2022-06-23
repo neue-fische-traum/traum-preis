@@ -4,8 +4,9 @@ this repo has to notebooks and other materials we used to analyze and model Trau
 
 Data used was provided by TFW, and is not to be disclosed
 
-EDA contains notebooks used for various aspects of the EDA
-notebooks contains notebooks used to develop models
+The EDA folder contains notebooks used for various aspects of the EDA
+
+The Modeling folder contains code used to develop our models. 
 
 
 
