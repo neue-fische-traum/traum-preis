@@ -2,7 +2,7 @@
 
 this repo has to notebooks and other materials we used to analyze and model Traum-Ferienwohnungen's data
 
-Data used was provided by TFW, and is not to be disclosed
+Data used was provided by TFW, and is not to be disclosed.
 
 The EDA folder contains notebooks used for various aspects of the EDA
 
